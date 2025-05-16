@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interactive Object
   - Weapon
+  - Item
   layers:
   - Default
   - TransparentFX

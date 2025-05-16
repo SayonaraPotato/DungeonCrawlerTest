@@ -33,15 +33,11 @@ public class MovementScript : MonoBehaviour
         if (_direction.x < 0)
         {
             _playerTexture.transform.localScale = new Vector3(-1.5f, 1, 1);
-            //if (Input.GetAxisRaw("Fire1") != 1)
-                //_weapon.transform.localScale = new Vector3(-1, 1, 1);
         }
 
         if (_direction.x > 0)
         {
             _playerTexture.transform.localScale = new Vector3(1.5f, 1, 1);
-            //if(Input.GetAxisRaw("Fire1") != 1)
-                //_weapon.transform.localScale = new Vector3(1, 1, 1);
         }
 
     }

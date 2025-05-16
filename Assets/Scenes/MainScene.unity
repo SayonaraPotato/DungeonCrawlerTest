@@ -12442,7 +12442,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -12527,29 +12527,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4941057575593252280, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3184110550286091321}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
---- !u!1 &3184110550286091320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4941057575593252280, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
-  m_PrefabInstance: {fileID: 3184110550286091319}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3184110550286091321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3184110550286091320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eab9d54de6047a40a91eb8d82ce8379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coins: 0
 --- !u!1001 &3750571255881657381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12681,14 +12660,14 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 305953626}
   - {fileID: 619394802}
   - {fileID: 175514596}
   - {fileID: 3184110550286091319}
   - {fileID: 296011827}
-  - {fileID: 304900226}
   - {fileID: 3750571255881657381}
   - {fileID: 1544380349}
   - {fileID: 6704608431936168655}
   - {fileID: 403476}
-  - {fileID: 305953626}
+  - {fileID: 304900226}
   - {fileID: 2059715009}
