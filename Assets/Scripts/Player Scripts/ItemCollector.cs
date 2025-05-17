@@ -1,12 +1,12 @@
 using UnityEngine;
+using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    [SerializeField] private TMP_Text m_Text;
+
+    private void FixedUpdate()
     {
-        if (collision.gameObject.tag == "Item")
-        {
-            Debug.Log("РАБОТАЕТ");
-        }
+        m_Text.text = "Арбайтен";
     }
 }
