@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public static int _coins = 0;
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        
+        _coins = CoinBehaviour._coins;
     }
 }

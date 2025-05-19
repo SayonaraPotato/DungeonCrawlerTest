@@ -4,9 +4,10 @@ using TMPro;
 public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private TMP_Text m_Text;
+    private int _coins = 0;
 
     private void FixedUpdate()
     {
-        m_Text.text = "ְנבאיעום";
+        m_Text.text = "ַמכמעמ: " + _coins;
     }
 }
