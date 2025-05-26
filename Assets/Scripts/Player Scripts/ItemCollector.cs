@@ -7,6 +7,7 @@ public class ItemCollector : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         m_Text.text = "Арбайтен";
     }
 }
