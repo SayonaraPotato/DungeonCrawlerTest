@@ -1,14 +1,16 @@
 using UnityEngine;
 
-public class CoinBehaviour : MonoBehaviour
+public class ItemCollectible : MonoBehaviour
 {
-    public static int _coins = 0;
+    [SerializeField] private GameObject _player;
+    [SerializeField] private PlayerStats _playerStatistic;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
+            _playerStatistic.Coins += 1;
             Destroy(gameObject);
-            _coins += 1;
         }
     }
 }

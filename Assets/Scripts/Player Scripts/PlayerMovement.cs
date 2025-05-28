@@ -39,7 +39,6 @@ public class MovementScript : MonoBehaviour
         {
             _playerTexture.transform.localScale = new Vector3(1.5f, 1, 1);
         }
-
     }
 
     void FixedUpdate()
