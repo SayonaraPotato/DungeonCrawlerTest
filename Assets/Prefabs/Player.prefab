@@ -255,7 +255,6 @@ GameObject:
   - component: {fileID: 6743590000661291215}
   - component: {fileID: 496453090759060773}
   - component: {fileID: 5185470580711338669}
-  - component: {fileID: 516722323815797413}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -392,20 +391,6 @@ MonoBehaviour:
   _animator: {fileID: 647751798189635064}
   _weapon: {fileID: 3542635301960445953}
   _playerTexture: {fileID: 2016249445415244027}
---- !u!114 &516722323815797413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4159318773781389323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5e90b40cf7253d4a8896110bafc479a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HP: 10
-  Coins: 0
 --- !u!1 &8814695269737556063
 GameObject:
   m_ObjectHideFlags: 0
