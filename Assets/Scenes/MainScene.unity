@@ -9346,6 +9346,8 @@ GameObject:
   m_Component:
   - component: {fileID: 727992192}
   - component: {fileID: 727992193}
+  - component: {fileID: 727992195}
+  - component: {fileID: 727992196}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -9391,6 +9393,65 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &727992195
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727992191}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &727992196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727992191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6027db9fb1f6b8f4a8ec81da2480b0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 727992193}
 --- !u!1 &1119675710
 GameObject:
   m_ObjectHideFlags: 0
@@ -12678,6 +12739,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1119675711}
     m_Modifications:
     - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5034575
       objectReference: {fileID: 0}
@@ -12716,6 +12789,14 @@ PrefabInstance:
     - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011950113681429896, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016249445415244027, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
+      propertyPath: m_Name
+      value: Player_Texture
       objectReference: {fileID: 0}
     - target: {fileID: 3707719084196016019, guid: 5703ca18b6f4e8a4ba68ffc19b83435b, type: 3}
       propertyPath: _offset
