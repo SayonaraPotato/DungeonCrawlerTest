@@ -10,7 +10,6 @@ public class ScoreManager : MonoBehaviour
         if (_scoreManager == null)
         {
             _scoreManager = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
             Destroy(gameObject);
@@ -19,7 +18,6 @@ public class ScoreManager : MonoBehaviour
     public void AddCoins(int _coins)
     {
         _currentCoins += _coins;
-        Debug.Log("—чет: " + _currentCoins);
     }
 
     public int GetCoinsScore()
