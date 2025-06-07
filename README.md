@@ -14,7 +14,7 @@
 4.  Переход между комнатами
 
 # Установка и использование
-1.  Перейти в Releases
+1.  Перейти в [Releases](https://github.com/SayonaraPotato/Emberveil/releases/tag/pre-alpha)
 2.  Скачать архив с желаемой версией
 3.  Распаковать архив в любое место
 4.  Запустить "Circuit Heir.exe" в корневой папке билда
